@@ -172,20 +172,7 @@ ul {
   margin: 0;
   margin-bottom: 20px;
 
-  -moz-transition: width 0.85s ease;
-				-webkit-transition: width 0.85s ease;
-				-ms-transition: width 0.85s ease;
-				transition: width 0.85s ease;
-				-moz-transition-delay: 0.25s;
-				-webkit-transition-delay: 0.25s;
-				-ms-transition-delay: 0.25s;
-				transition-delay: 0.25s;
-				background: #fff;
-				content: '';
-				display: block;
-				height: 2px;
-				position: absolute;
-				width: 100%;
+ 
 }
 .section-title h2 span {
   color: var(--main-color);
@@ -268,11 +255,37 @@ ul {
   align-items: center;
   border-radius: 0px 0px 200px 0px;
 }
-.home h1 {
+/* .home h1 {
   font-size: 45px;
   font-weight: 700;
   color: #ffffff;
-  margin: 0 0 20px;
+  margin: 0 0 20px; */
+  .home h1 before,  .home h1 after {
+    -moz-transition: width 0.85s ease;
+    -webkit-transition: width 0.85s ease;
+    -ms-transition: width 0.85s ease;
+    transition: width 0.85s ease;
+    -moz-transition-delay: 0.25s;
+    -webkit-transition-delay: 0.25s;
+    -ms-transition-delay: 0.25s;
+    transition-delay: 0.25s;
+    background: #fff;
+    content: '';
+    display: block;
+    height: 2px;
+    position: absolute;
+    width: 100%;
+  }
+
+   .home h1 before {
+    top: 0;
+    left: 0;
+  }
+
+  .home h1:after {
+    bottom: 0;
+    right: 0;
+  }
 }
 .home p {
   font-size: 18px;
