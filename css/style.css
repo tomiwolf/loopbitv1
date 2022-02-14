@@ -182,7 +182,7 @@ ul {
   height: 100%;
   width: 100%;
   z-index: 2100;
-  background-color:blueviolet;
+  background-color: var(--main-to-dark-color);
   top: 0;
   left: 0;
   display: flex;
