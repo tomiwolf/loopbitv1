@@ -173,7 +173,7 @@ ul {
   margin-bottom: 20px;
 }
 .section-title h2 span {
-  color: var(--main-color);
+  color: black;
 }
 
 /* ======= preloader */
@@ -182,7 +182,7 @@ ul {
   height: 100%;
   width: 100%;
   z-index: 2100;
-  background-color: var(--main-to-dark-color);
+  background-color:blueviolet;
   top: 0;
   left: 0;
   display: flex;
