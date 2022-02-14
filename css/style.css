@@ -4,7 +4,7 @@
 
 /* ===== Global css ===== */
 :root {
-  --main-color: #0713c7;
+  --main-color: #577efe;
   --color-1: #e91e63;
   --color-2: #f5ae10;
   --color-3: #09d69c;
@@ -173,7 +173,7 @@ ul {
   margin-bottom: 20px;
 }
 .section-title h2 span {
-  color: black;
+  color: var(--main-color);
 }
 
 /* ======= preloader */
